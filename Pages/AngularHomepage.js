@@ -8,6 +8,7 @@ var AngularHomepage = function() {
 
   this.setName = function(name) {
     nameInput.sendKeys(name);
+    browser.sleep('999');
   };
 
   this.getGreetingText = function() {
